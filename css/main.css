@@ -1,1 +1,162 @@
-/* Agrega aquí tus estilos*/
+* {
+    text-decoration: none;
+}
+
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+.page-wrapper,
+aside,
+nav,
+section {
+    width: 600px;
+    text-align: left;
+    margin: left;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+header {
+    padding-left: 10px;
+    background: none;
+    margin: 0 auto;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+body {
+    background-color: #ffffff;
+    color: Grey;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    background-image: url(../images/01.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-attachment: fixed;
+}
+
+banner,
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    border-bottom: 1px dotted;
+    border-bottom-color: #d90119;
+}
+
+banner,
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+    color: #d90119;
+    line-height: 1px;
+    text-shadow: 2px 2px #edc5d7;
+}
+
+.sidebar {
+    background-color: #ffe025;
+    font-size: 12px;
+    line-height: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: left;
+    padding: 10px;
+    column-gap: 20px;
+    column-count: 3;
+}
+
+.sidebar .select {
+    text-align: center;
+}
+
+footer {
+    /*ahora es la barra de más arriba*/
+    text-align: right;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 0;
+    position: fixed;
+    padding-top: 0px;
+    background: none;
+    background-color: none;
+}
+
+.summary,
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.sidebar {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: right;
+}
+
+.summary {
+    color: black;
+    background-color: #ffceff;
+    text-align: left;
+    margin: left;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.preamble {
+    background-color: plum;
+    width: 100%;
+    text-align: left;
+    margin: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.explanation {
+    background-color: salmon;
+    width: 100%;
+    text-align: left;
+    margin: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.participation {
+    background-color: #9bc5e6;
+    width: 100%;
+    text-align: left;
+    margin: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.benefits {
+    background-color: #dbec8a;
+    width: 100%;
+    text-align: left;
+    margin: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.requirements {
+    background-color: #f8918c;
+    width: 100%;
+    text-align: left;
+    margin: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
